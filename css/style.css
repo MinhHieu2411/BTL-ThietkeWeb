@@ -1,17 +1,20 @@
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .logo{
-    font-family: "Playfair Display", sans-serif; 
+*{
+    margin: 0;
+    border: 0;
 }
 /* Style for nav */
 .logo{
     font-size: 24px;
     font-weight: 780;
 }
+
 .main-menu{
     margin-right: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-decoration: aliceblue;
+    width: 100%;
 }
 
 ul{
@@ -23,6 +26,10 @@ ul{
 
 li{
     float: left;
+}
+
+li a{
+    color: black;
 }
 
 li a, .dropbtn{
@@ -53,8 +60,9 @@ li a, .dropbtn{
 }
 
 /* Style for banner */
-img{
+.banner img{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .text-center {
@@ -67,5 +75,23 @@ img{
     color: azure;
     background-color: rgba(0,0,0,0.3);
 }
+
+/*Style for container*/
+.grid-container{
+    display: grid; 
+    grid-template-columns: auto auto auto auto; 
+}
+
+.grid-item{
+  box-sizing: border-box; 
+  width: 320px;
+}
+
+.grid-item img{
+    width: 320px;
+    height: 300px;
+} 
+
+
 
 
