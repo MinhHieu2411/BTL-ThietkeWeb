@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: black;
 }
 .site-nav_mt-03{
@@ -115,4 +115,79 @@ body{
 }
 .has-children1:hover .dropdown1{
     width: 300%;
+} */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .logo{
+    font-family: "Playfair Display", sans-serif; 
 }
+/* Style for nav */
+.logo{
+    font-size: 24px;
+    font-weight: 780;
+}
+.main-menu{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: aliceblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0x rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/* Style for banner */
+body{
+    background-size: cover;
+}
+body {
+    background-image: url('/img/beach_bar.jpg');
+}
+.text-center {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center !important;
+    transform: translate(-50%, -50%);
+    color: azure;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
