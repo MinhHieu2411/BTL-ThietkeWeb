@@ -1,97 +1,146 @@
-*{
-    margin: 0;
-    border: 0;
+body{
+    background-color: black;
 }
-/* Style for nav */
-.logo{
-    font-size: 24px;
-    font-weight: 780;
+.site-nav_mt-03{
+    margin-top: 16px;
+    height: 1.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
-
-.main-menu{
-    margin-right: 5px;
+.container{
+    margin-top: 2%;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+}
+.site-navigation{
+    width: 10%;
+    justify-content: center;
+}
+.logo_m-0_float-start{
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 150%;
+    line-height: 150%;
+}
+.js-clone-nav_d-none_d-lg-inline-block_text-start_site-menu_float-start{
+    width: 50%;
+    margin-top: 0.5%;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration: aliceblue;
-    width: 100%;
 }
-
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li{
-    float: left;
-}
-
-li a{
-    color: black;
-}
-
-li a, .dropbtn{
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown-content{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0x rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.js-clone-nav_d-none_d-lg-inline-block_text-start_site-menu_float-start>li{
+    
     text-align: left;
+    width: fit-content;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    line-height: 120%;
+    font-weight: 300;
+    padding: 1%;
+    position: relative;
 }
-
-.dropdown:hover .dropdown-content{
-    display: block;
+.js-clone-nav_d-none_d-lg-inline-block_text-start_site-menu_float-start>li>a{
+    text-decoration: none;
+    color: white;
 }
-
-/* Style for banner */
-.banner img{
-    width: 100%;
-    margin-bottom: 100px;
+.js-clone-nav_d-none_d-lg-inline-block_text-start_site-menu_float-start li a:hover{
+    
+    color: #fc8621;
 }
-
-.text-center {
+.dropdown{
+    display: none;
+    width: 120%;
+}
+.dropdown>li{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    width: fit-content;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110%;
+    line-height: 120%;
+    font-weight: 300;
+    padding: 1%;
+    position: relative;
+}
+.dropdown>li>a:hover{
+    color: #fc8621;
+}
+.dropdown>li>a{
+    text-decoration: none solid;
+    color: black;
+}
+.has-children:hover .dropdown{
     display: block;
     position: absolute;
-    top: 70%;
-    left: 50%;
-    text-align: center !important;
-    transform: translate(-50%, -50%);
-    color: azure;
-    background-color: rgba(0,0,0,0.3);
+    background-color: white;
+    height: fit-content;
+}
+.dropdown1{
+    display: none;
+    margin-left: 3%;
+    background-color: white;
+}
+.dropdown1>li{
+    position: relative;
+    top: -50px;
+    letter-spacing: 100%;
+    width: 250%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+    width: fit-content;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 100%;
+    font-weight: 300;
+    padding: 1%;
+}
+.dropdown1>li>a{
+    color: black;
+    text-decoration: none solid;
+}
+.dropdown1>li>a:hover{
+    color: #fc8621;
+}
+.has-children1:hover .dropdown1{
+    width: 300%;
 }
 
-/*Style for container*/
-.grid-container{
-    display: grid; 
-    grid-template-columns: auto auto auto auto; 
+
+
+
+
+
+.overlay{
+    margin-top: 2.5%;
+    margin-left: 3%;
+    width: 95%;
+    height:100vh;
+    position: absolute;
+    background-image: url('../img/home-overlay-cover.jpg');
+    background-color: rgba(0,0,0,0.6);
 }
-
-.grid-item{
-  box-sizing: border-box; 
-  width: 320px;
+.introduce{
+    margin-top: 20%;
+    margin-left: 15%;
+    color: white;
 }
-
-.grid-item img{
-    width: 320px;
-    height: 300px;
-} 
-
-
-
-
+.introduce h1{
+    font-family: 'Playfair Display', sans-serif ;
+    font-size: 300%;
+}
+.introduce p{
+    font-size: 150%;
+    font-family: 'Hurricane', sans-serif;
+}
