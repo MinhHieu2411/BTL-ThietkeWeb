@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    border: 0;
+}
+/* Style for nav */
+.logo{
+    font-size: 24px;
+    font-weight: 780;
+}
+
+.main-menu{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: aliceblue;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0x rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.body-header{
+    background-color: black;
+
+}
+
+.body-main{
+    padding-top: 50px ;
+    margin-right:  335px; 
+    margin-left: 335px;
+    
+}
+.img-banner{
+    max-width: 686px;
+}
+
+#tall{
+    margin-top:30px ;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 22px;
+}
+
