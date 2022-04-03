@@ -225,3 +225,52 @@ body{
 #site-footer .link{
     display: flex;
 }
+/* Style for container */
+/* food */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0x rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.body-header{
+    background-color: black;
+
+}
+
+.body-main{
+    padding-top: 50px ;
+    margin-right:  335px; 
+    margin-left: 335px;
+    
+}
+.img-banner{
+    max-width: 686px;
+}
+
+#tall{
+    margin-top:20px ;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top: 20px;
+    line-height: 30px;
+    color: white;
+    
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+.body-main .banner h2  {
+    color: white;
+    font-size: 30px;
+}
