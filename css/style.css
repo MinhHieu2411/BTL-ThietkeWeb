@@ -299,7 +299,7 @@ ul { list-style-type: none; }
 }
 
 #tall{
-    margin-top:20px ;
+    margin-top:40px ;
     margin-bottom: 10px;
 }
 
@@ -309,11 +309,19 @@ p{
     color: white;
     
 }
-h3{
-    color: white;
-    font-size: 30px;
-}
 .body-main .banner h2  {
     color: white;
     font-size: 30px;
+}
+
+.b-img{
+    border: 2px;
+    margin-bottom: -5px !important;
+}
+
+.banner-header{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
 }
