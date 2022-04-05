@@ -216,7 +216,7 @@ ul { list-style-type: none; }
     text-align: center !important;
     transform: translate(-50%, -50%);
     color:aliceblue;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 /* Style for container */
 /* blog */
@@ -228,7 +228,6 @@ ul { list-style-type: none; }
     display: grid; 
     grid-template-columns: auto auto auto auto; 
     margin: 10px auto;
-    background-color: white;
 }
 .grid-item{
   box-sizing: border-box; 
@@ -239,6 +238,9 @@ ul { list-style-type: none; }
     width: 280px;
     height: 240px;
 } 
+h3,p>.grid-item{
+    color: white;
+}
 /* contactus */
 .form-info{
     background-color: white;
@@ -248,7 +250,6 @@ ul { list-style-type: none; }
 }
 .contact-info,.info{
     margin-top: 40px;
-
 }
 .info_name input{
     height: 45px;
@@ -286,11 +287,11 @@ ul { list-style-type: none; }
 }
 
 /* Style for footer */
-/* blog */
+/* blog & contactus*/
 #site-footer{
-    background-color: #efefef;
+    background-color: rgb(37, 35, 35);
     margin: 0 auto;
-    width: 1163px;
+    width: 1300px;
     padding: 50px;
 }
 #site-footer h3{
@@ -301,14 +302,14 @@ ul { list-style-type: none; }
     display: flex;
     align-items: center; 
 }
-#site-footer .col-lg-4{
+#site-footer .col-1{
     min-height: auto;
     max-width: 100%;
     min-width: auto;
     display: block;
     box-sizing: border-box;
     padding: 0 12px 0 12px;
-    height: 260px;
+    height: 200px;
     width: 440px;
 }
 #site-footer .col-2{
@@ -317,6 +318,12 @@ ul { list-style-type: none; }
 }
 #site-footer .link{
     display: flex;
+}
+ul,li,a>.col-2 {
+    color: white;
+}
+.row span{
+    font-weight: bold;
 }
 /* Style for container */
 /* food */
@@ -332,10 +339,8 @@ ul { list-style-type: none; }
     display: block;
 }
 
-
 .body-header{
     background-color: black;
-
 }
 
 .body-main{
@@ -357,7 +362,6 @@ p{
     margin-top: 20px;
     line-height: 30px;
     color: white;
-    
 }
 .body-main .banner h2  {
     color: white;
