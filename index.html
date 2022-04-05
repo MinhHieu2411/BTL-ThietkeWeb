@@ -7,39 +7,70 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <title>Phú Quốc Travel</title>
 </head>
 <body>
+    <!-- start nav -->
     <div class="site-nav_mt-3">
         <div class="container">
             <div class="site-navigation">
             <a href="index.html" class="logo_m-0_float-start">PhuQuocTravel</a>  
             </div>
-            <ul class="float-start">
-                <li class="active"><a href="index.html">Trang chủ</a></li>
+               <ul class="dropdown">
+               <li class="active"><a href="index.html">Trang chủ</a></li>
+              <ul class="float-start">
                 <li><a href="about.html">Về Phú Quốc</a></li>
                 <li class="has-children">
+<<<<<<< HEAD
+                <a href="#" style="">Du lịch Phú Quốc</a>
+                <ul class="dropdown" style="">
+                <li><a href="pages/food.html" style="">Ẩm thực</a></li>
+                <li><a href="pages/place.html" style="">Địa điểm nổi tiếng</a></li>
+=======
                 <a href="#">Du lịch Phú Quốc</a>
-                <ul class="dropdown">
                 <li><a href="pages//food.html">Ẩm thực</a></li>
                 <li><a href="pages/place.html">Địa điểm nổi tiếng</a></li>
+>>>>>>> ede8aa870d61784ff8a703850601852d8774add0
                 </ul>
                 </li>
                 <li><a href="pages/service.html">Dịch vụ</a></li>
                 <li><a href="pages/blog.html">Blog</a></li>
             </ul>
             <ul class="float-end">
-                <li class="cta-button"><a href="contact.html">Liên hệ</a></li>
+                <li class="cta-button"><a href="pages/contact.html" style="">Liên hệ</a></li>
                 </ul>
         </div>
     </div>
+    <!-- end nav -->
+
     <div class="overlay">
+        <div class="home-banner">
+            <img src="img/home-overlay-cover.jpg" alt="">
+        </div>
         <div class="introduce">
             <h1>PHÚ QUỐC</h1>
-            <p>Thành phố biển bước ra từ trong mơ ~</p>
+            <h1>Thành phố biển bước ra từ trong mơ</h1>
+            <div class="home-video">
+                <a href="#" onclick="toggle();">Xem Video
+                    <i class="fa-solid fa-circle-play"></i></a>
+                <div class="video-container">
+                    <video src="vid/home-video.mp4" controls></video>
+                    <img src="img/OOjs_UI_icon_close.svg.png" class="close" onclick="toggle();">
+                </div>
+            </div>
         </div>
     </div>
+    <script type="text/javascript">
+        function toggle(){
+            var homeVideo = document.querySelector(".home-video");
+            var video = document.querySelector("video");
+            trailer.classList.toggle("active");
+            video.pause();
+            video.currentTime = 0;
+        }
+    </script>
+
 </body>
 </html>
