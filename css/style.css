@@ -609,7 +609,6 @@ p{
     font-size: 45px;
     font-weight: 500;
 }
-<<<<<<< HEAD
 /* Reponsive */
 /* Mobile */
 @media screen and (max-width: 1023px) {
@@ -676,7 +675,7 @@ p{
 }
 .form-submit:hover{
     border: 3px solid orange;
-=======
+}
 /* service */
 
 #tall{
@@ -692,5 +691,4 @@ p{
     color : white;
     font-size: 40px;
 
->>>>>>> 7977513c2ad1b6511ff29b739d555c770042fcf9
 }
