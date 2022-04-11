@@ -5,8 +5,10 @@
 body{
     background-color: black;
 }
-/* Style for nav */
 ul { list-style-type: none; }
+li { list-style-type: none; }
+
+/* Style for nav */
 .site-nav_mt-03{
     margin-top: 16px;
     height: 1.5%;
@@ -66,7 +68,7 @@ ul { list-style-type: none; }
     width: 120%;
 }
 .dropdown>li{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     text-align: left;
     width: fit-content;
@@ -104,7 +106,8 @@ ul { list-style-type: none; }
     font-family: 'Open Sans', sans-serif;
 }
 .cta-button:hover a{
-    color: #fc6821;
+    background-color: #fc6821;
+    border: #fc6821 1px solid;
 }
 .burger{
     display: none;
@@ -123,40 +126,44 @@ ul { list-style-type: none; }
 /* Style for banner */
 .overlay{
     margin-top: 2.5%;
-    margin-left: 3%;
-    width: 95%;
+    width: 100%;
     height:100vh;
     background-color: rgba(0,0,0,0.6);
 }
 .introduce {
-    width: 60%;
+    width: 70%;
     padding: 10px;
     border-radius: 20px;
     display: block;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 20%;
     transform: translate(-50%, -50%);
     color: azure;
-    background-color: rgba(0, 0, 0, 0.4 );
+    background-color: rgba(0, 0, 0, 0.25 );
     margin-top: 20%;
     margin-left: 20%;
     color: white;
 }
 .introduce h1{
-    font-weight: 600;
-    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    line-height: 130%;
+    font-family: 'Grape Nuts', 'cursive';
     padding-bottom: 2%;
-    font-size: 250%;
+    font-size: 400%;
+}
+.introduce p{
+    margin-left: 3%;
 }
 .home-video a{
-    margin-left: 1%;
+    margin-left: 3%;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
     background-color: rgba(0, 0, 0, 0.1 );
     color: white;
 }
+/*
 .video-container{
     position: fixed;
     top: 0;
@@ -195,14 +202,14 @@ ul { list-style-type: none; }
         max-width: 90%;
     }
 }
+ */
 /*end home-overlay*/
 
 /* start semi-about */
 .semi-about{
     color: white;
-    margin-top: 12%;
-    margin-left: 7%;
-    width: 100%;
+    margin-top: 15%;    
+    width: 90%;
     height: fit-content;
     display: flex;
     align-items: center;
@@ -210,8 +217,8 @@ ul { list-style-type: none; }
     justify-content: space-between;
 }
 .semi-about-paragraph{
-    width: 60%;
-    padding-right: 5%;
+    width: 50%;
+    padding: 7%;
 
 }
 .semi-about-paragraph h1{
@@ -226,11 +233,12 @@ ul { list-style-type: none; }
 }
 .semi-about-paragraph ul li{
     padding-top: 10%;
-    margin-left: 80%;
+    padding-left: 80%;
 }
 .about-button a{
+    
     margin-right: 5%;
-    padding: 10px;
+    padding: 10%;
     text-decoration: none;
     border-radius: 50px;
     border: 1px solid;
@@ -238,57 +246,130 @@ ul { list-style-type: none; }
     font-family: 'Open Sans', sans-serif;
 }
 .about-button:hover a{
-    color: #fc6821;
+    background-color: #fc6821;
 }
 .pict img{
-    width: 60%;
+    width: 80%;
 }
 .pict{
-    padding-left: 5%;
+    width: 50%;
+
 }
 /* end semi-about */
 /* start semi-service */
 .semi-service{
+    margin-top: -10%;
     color: white;
-    height: 20%;
+    height: 50%;
     width: 80%;
-    padding:10%;
+    padding: 10%;
 }
 .semi-service-paragraph{
-    margin-left: 4%;
-    text-align: left;
-    width: 49%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10%;
+    border: #fc6821 solid 3px;
+    border-radius: 10px  ;
 }
 .semi-service-paragraph h1{
     font-family: 'Open Sans', sans-serif;
-    font-size: 200%;
+    font-size: 240%;
+    padding: 2%;
 }
 .semi-service-paragraph h2{
-    padding-top: 5%;
+    padding: 4%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
+    font-size: 150%;
     font-weight: 300;
 }
-.slider{
-    width: 80%;
-    display: flex;
+.semi-service-paragraph img{
+    width: 95%;
+    margin-top: 2.5%;
+    border-radius: 10px;
+}
+.semi-service-ex{
+    margin-top: -15%;
+    width: 100%;
+    padding: 4%;
+}.semi-service-container{
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    margin-right: 5%;
 }
-.slider-container{
-    width: 400%;
-    float: left;
-    display: block;
+.service-box{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10%;
+}
+.service-paragraph{
+    width: 55%;
+    padding: 1%;
+}
+.service-paragraph h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+.service-paragraph h2{
+    text-align: left;
+    padding-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    font-weight: 300;
+}
+.service-pic{
     
+    width: 50%;
 }
-.slider-box{
-
+.service-pic img{
+    width: 90%;
+    height: 100%;
 }
-.slider-pic img{
+/* start contact-link */
+.contact-link{
+    margin-top: -5%;
     width: 100%;
+    background-color: #fc6821;
+    height: fit-content;
+    justify-content: center;
+}
+.contact-link-box{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+.promo{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -4px;
+}
+.promo p{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+}
+.ctact-button{
+    margin-top: 10px;
+    width: 35%;
+}
+.contact-link-box li a{
+    text-decoration: none;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 50px;
+    border: 1px solid;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+.ctact-button:hover a{
+    color: #fc6821;
+    background-color: white;
 }
 /* blog */
+.banner{
+    margin-top: 3%;
+}
 .banner h1{
     font-size: 40px;
 }
@@ -439,9 +520,13 @@ h3,p>.grid-item{
 #site-footer .col-2{
     position: absolute;
     left: 700px;
+    line-height: 30px;
 }
 #site-footer .link{
     display: flex;
+}
+#site-footer .link li a{
+    margin-right: 15px;
 }
 ul,li,a>.col-2 {
     color: white;
@@ -450,7 +535,7 @@ ul,li,a>.col-2 {
     font-weight: bold;
 }
 /* Style for container */
-/* food , place , service*/
+/* food , place */
 .dropdown-content{
     display: none;
     position: absolute;
@@ -503,6 +588,7 @@ p{
     font-size: 45px;
     font-weight: 500;
 }
+<<<<<<< HEAD
 /* Reponsive */
 /* Mobile */
 @media screen and (max-width: 1023px) {
@@ -569,4 +655,21 @@ p{
 }
 .form-submit:hover{
     border: 3px solid orange;
+=======
+/* service */
+
+#tall{
+    margin-top: 80px;
+}
+
+.service-body-main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.service-body-main h2,h1{
+    color : white;
+    font-size: 40px;
+
+>>>>>>> 7977513c2ad1b6511ff29b739d555c770042fcf9
 }
