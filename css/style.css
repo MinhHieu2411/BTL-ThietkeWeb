@@ -563,12 +563,13 @@ ul,li,a>.col-2 {
     margin-top: -22%;
     
 }
-.body-main .banner h1{
+.body-main .banner h3{
     color: #fc6821;
     text-align: center;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 60px;
     font-family: 'Grape Nuts', 'cursive';
+    margin-bottom: 8%;
 }
 .img-banner{
     max-width: 686px;
