@@ -526,7 +526,7 @@ ul,li,a>.col-2 {
     font-weight: bold;
 }
 /* Style for container */
-/* food , place , service*/
+/* food , place */
 .dropdown-content{
     display: none;
     position: absolute;
@@ -578,4 +578,20 @@ p{
     color: white;
     font-size: 45px;
     font-weight: 500;
+}
+/* service */
+
+#tall{
+    margin-top: 80px;
+}
+
+.service-body-main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.service-body-main h2,h1{
+    color : white;
+    font-size: 40px;
+
 }
