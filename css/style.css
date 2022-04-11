@@ -5,8 +5,10 @@
 body{
     background-color: black;
 }
-/* Style for nav */
 ul { list-style-type: none; }
+li { list-style-type: none; }
+
+/* Style for nav */
 .site-nav_mt-03{
     margin-top: 16px;
     height: 1.5%;
@@ -224,6 +226,7 @@ ul { list-style-type: none; }
     padding-left: 80%;
 }
 .about-button a{
+    
     margin-right: 5%;
     padding: 10%;
     text-decoration: none;
@@ -313,7 +316,50 @@ ul { list-style-type: none; }
     width: 90%;
     height: 100%;
 }
+/* start contact-link */
+.contact-link{
+    margin-top: -5%;
+    width: 100%;
+    background-color: #fc6821;
+    height: fit-content;
+    justify-content: center;
+}
+.contact-link-box{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+.promo{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -4px;
+}
+.promo p{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+}
+.ctact-button{
+    margin-top: 10px;
+    width: 35%;
+}
+.contact-link-box li a{
+    text-decoration: none;
+    font-size: 150%;
+    padding: 2%;
+    border-radius: 50px;
+    border: 1px solid;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+.ctact-button:hover a{
+    color: #fc6821;
+    background-color: white;
+}
 /* blog */
+.banner{
+    margin-top: 3%;
+}
 .banner h1{
     font-size: 40px;
 }
@@ -465,9 +511,13 @@ h3,p>.grid-item{
 #site-footer .col-2{
     position: absolute;
     left: 700px;
+    line-height: 30px;
 }
 #site-footer .link{
     display: flex;
+}
+#site-footer .link li a{
+    margin-right: 15px;
 }
 ul,li,a>.col-2 {
     color: white;
